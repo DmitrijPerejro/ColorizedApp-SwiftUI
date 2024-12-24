@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var redSliderValue = Double.random(in: 0...255).rounded()
-    @State var greenSliderValue = Double.random(in: 0...255).rounded()
-    @State var blueSliderValue = Double.random(in: 0...255).rounded()
-    @FocusState var focused: Bool
+    @State private var redSliderValue = Double.random(in: 0...255).rounded()
+    @State private var greenSliderValue = Double.random(in: 0...255).rounded()
+    @State private var blueSliderValue = Double.random(in: 0...255).rounded()
+    @FocusState private var focused: Bool
 
     var body: some View {
         ZStack {
