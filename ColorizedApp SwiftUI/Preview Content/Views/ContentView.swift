@@ -11,7 +11,6 @@ struct ContentView: View {
     @State var redSliderValue = Double.random(in: 0...255).rounded()
     @State var greenSliderValue = Double.random(in: 0...255).rounded()
     @State var blueSliderValue = Double.random(in: 0...255).rounded()
-    
     @FocusState var focused: Bool
 
     var body: some View {
